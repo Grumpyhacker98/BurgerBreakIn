@@ -157,7 +157,7 @@ class App extends Component {
         <header className="App-header">
 
           {/* <button onClick={() => this.restoreSQLseeds()}>Restore SQL Seeds</button> */}
-          <button onClick={() => this.test()}>Test Log</button>
+          {/* <button onClick={() => this.test()}>Test Log</button> */}
 
           <div className="d-flex justify-content-around p-2">
             <button onClick={() => this.setState({ table: 'burger' })} >Burger</button>
